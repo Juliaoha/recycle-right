@@ -1,4 +1,55 @@
 .container {
-  background-color: aqua;
+  background-color: white;
   height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bins-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 730px;
+  background-color: #cacae0;
+}
+
+.bin {
+  height: 425px;
+  width: 360px;
+  background-color: black;
+  border: 1px solid red;
+}
+
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 27%;
+  background-color: black;
+}
+
+.item {
+  height: 200px;
+  width: 200px;
+  background-color: white;
 }
